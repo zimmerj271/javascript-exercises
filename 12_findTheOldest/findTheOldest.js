@@ -12,7 +12,6 @@ const findTheOldest = function(arr) {
     }
     // use reduce to compare the age key/value pair and return one which is greatest
     return arr.reduce( (previous, current) => (previous.age > current.age) ? previous : current);
-};
-
+}
 // Do not edit below this line
 module.exports = findTheOldest;
